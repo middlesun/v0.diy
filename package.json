@@ -113,3 +113,10 @@
     "typescript": "5.7.2"
   }
 }
+
+{
+  "scripts": {
+    "build": "pnpm prisma generate && next build"
+  }
+}
+
